@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configure xmlns="http://namespaces.zope.org/zope"
+           xmlns:browser="http://namespaces.zope.org/browser"
+           i18n_domain="groupserver">
+
+  <!-- The JavaScript -->
+  <browser:resource 
+    name="jquery-ui-1.10.3.js"
+    file="jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.js"
+    permission="zope2.Public" />
+  <browser:resource 
+    name="jquery-ui-1.10.3.min.js"
+    file="jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js"
+    permission="zope2.Public" />
+
+  <!-- The CSS -->
+  <browser:resource 
+    name="jquery-ui-1.10.3.css"
+    file="jquery-ui-1.10.3.custom/css/colour-is-for-happy-people/jquery-ui-1.10.3.custom.css"
+    permission="zope2.Public" />
+  <!-- The images for the CSS -->
+  <browser:resourceDirectory
+    name="jquery-ui-1.10.3-images"
+    directory="jquery-ui-1.10.3.custom/css/colour-is-for-happy-people/images"
+    permission="zope2.Public" />
+
+</configure>
+
