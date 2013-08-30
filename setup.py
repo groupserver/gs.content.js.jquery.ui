@@ -16,11 +16,11 @@ setup(name='gs.content.js.jquery.ui',
         "Framework :: Zope2",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
-        "Natural Language :: English",
-        "Operating System :: POSIX :: Linux"
-        "Programming Language :: Python",
-        "Topic :: Software Development :: Libraries :: Python Modules",
-      ],
+        "Operating System :: OS Independent"
+        "Programming Language :: JavaScript",
+        "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+        "Topic :: Software Development :: Libraries :: JavaScript Modules",
+    ],
     keywords='javascript jQuery jQuery.UI',
     author='Michael JasonSmith',
     author_email='mpj17@onlinegroups.net',
@@ -33,9 +33,9 @@ setup(name='gs.content.js.jquery.ui',
     zip_safe=True,
     install_requires=[
         'setuptools',
-        'zope.browserresource',
         'gs.content.js.jquery.base',
     ],
+    extras_require={'zope': ['zope.browserresource', ]},
     entry_points="""
     # -*- Entry points: -*-
     """,)
