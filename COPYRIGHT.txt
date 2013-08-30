@@ -1,0 +1,4 @@
+jQuery UI JavaScript, images and CSS are copyright 2013 jQuery Foundation
+and other contributors http://jquery.com/
+
+The egg (gs.content.js.jquery.ui) copyright OnlineGroups.net and contributors.
